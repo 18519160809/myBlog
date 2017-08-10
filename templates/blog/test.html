@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for p in post_list %}
+{{ p }}
+{% empty %}
+没有
+{% endfor %}
+</body>
+</html>
